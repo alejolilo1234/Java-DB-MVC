@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String ...args) {
-        try {
+        /*try {
             Model.LoginDAO log = new Model.LoginDAO();
             log.login("Jhon Abril", "JIDOAD");
         } catch (Exception ex) {
             //
-        }
+        }*/
+        View.Login lo = new View.Login();
+        lo.validar();
     }
 }

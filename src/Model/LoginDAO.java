@@ -30,6 +30,6 @@ public class LoginDAO {
         } catch(SQLException e) {
             System.out.println(e);
         }
-        return null;
+        return mlog;
     }
 }
